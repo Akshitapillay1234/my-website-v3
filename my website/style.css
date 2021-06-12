@@ -1,0 +1,30 @@
+h1
+{
+    color:mediumblue
+}
+.header{
+    background-color: darksalmon;
+    display:flex;
+    justify-content: space-between;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}
+.item{
+    display:flex;
+    flex-direction:column ;
+    justify-content: first baseline;
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+h2,p{
+    text-align: center;
+}
+  body{
+      background-color:#b59dd1 ;
+  }       
